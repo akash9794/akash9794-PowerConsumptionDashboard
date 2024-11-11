@@ -1,0 +1,74 @@
+/* PowerAnalyticsDashboard.css */
+.card-container {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+  
+  .card-content {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+  }
+  
+  .card-icon {
+    padding: 0.75rem;
+    border-radius: 9999px;
+  }
+  
+  .card-icon.green {
+    background-color: #d1fae5;
+  }
+  
+  .card-icon.orange {
+    background-color: #ffedd5;
+  }
+  
+  .card-icon.yellow {
+    background-color: #fef9c3;
+  }
+  
+  .card-icon.purple {
+    background-color: #f3e8ff;
+  }
+  
+  .card-icon svg {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  
+  .card-content div:first-child {
+    margin-right: 1rem;
+  }
+  
+  .card-text-sm {
+    color: #6b7280;
+  }
+  
+  .card-text-xs {
+    color: #9ca3af;
+  }
+  
+  .card-title {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  
+  .card-subtitle {
+    font-size: 0.875rem;
+    color: #9ca3af;
+  }
+  
+  .card-percentage {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #2563eb;
+  }
+  
+  .card-legend {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.875rem;
+    color: #6b7280;
+  }
+  
